@@ -1,11 +1,11 @@
 # UR3 Project (in construction , V5).
 
-## Requirements: 
+ ## :stop_sign: Requirements: 
   - Ubuntu 18.04
   - ROS Melodic
   - URSim or Real Robot
 
-## Contents: 
+## :scroll: Contents: 
   - **Intefaz_v5**:    Contiene el proyecto contruido en Unity3d.
   - **Ejecutable**: Ejecutable del proyecto.
   
