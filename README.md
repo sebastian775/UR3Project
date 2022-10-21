@@ -50,7 +50,7 @@ El siguiente ejecutable es cosntruido en Unity3d se puede descargar de [ejecutab
 
 ###  Uso de ejecutable:
 
-*Nota*: Deberá tener inicialiado el simulador con su configuración respectiva mensionada aquí.
+**Nota**: Deberá tener inicialiado el simulador con su configuración respectiva mensionada aquí.
 
 Desde una teminal ejecuta lo siguiente:
 
