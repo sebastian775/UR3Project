@@ -6,8 +6,8 @@
   - URSim or Real Robot
 
 ## Contents: 
-  - Intefaz_v5: Contiene el proyecto contruido en Unity3d.
-  - Ejecutable_v5 : Ejecutable del proyecto.
+  - **Intefaz_v5**:    Contiene el proyecto contruido en Unity3d.
+  - **Ejecutable_v5**: Ejecutable del proyecto.
   
   
    <p align="center">
