@@ -73,4 +73,5 @@ En la carpeta ***Interfaz_v5** que se descarga se encuentra un archivo de pythot
 $ python ListarDatos.py
 ```
 Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** 
-*Nota*: Puede navegar por la platorma con las diferentes opciones que permite ejecutar, sin embargo para esta versión está inabilitada la opción de ejecutar trayetorias predefinidas.
+
+**Nota**: Puede navegar por la platorma con las diferentes opciones que permite ejecutar, sin embargo para esta versión está inabilitada la opción de ejecutar trayetorias predefinidas.
