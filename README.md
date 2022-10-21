@@ -4,6 +4,12 @@
   - Ubuntu 18.04
   - ROS Melodic
   - URSim or Real Robot
+  
+   <p align="center">
+
+ <img src="https://github.com/sebastian775/UR3Project/blob/main/v5img.png" alt="Universal Robot e-Series family" style="width: 50%;"/>
+
+ </p>
 
 **Note**: It is very important to have a clean workstation (catkin_ws), especially if there are Universal Robot files in it, as this may cause a conflict when compiling the catkin_ws.
 
