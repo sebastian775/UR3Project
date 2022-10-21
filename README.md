@@ -7,7 +7,7 @@
 
 ## Contents: 
   - **Intefaz_v5**:    Contiene el proyecto contruido en Unity3d.
-  - **Ejecutable_v5**: Ejecutable del proyecto.
+  - **Ejecutable**: Ejecutable del proyecto.
   
   
    <p align="center">
@@ -78,11 +78,10 @@ En una nueva terminal ejecutar:
 ```bash
 $ roslaunch rosbridge_server rosbridge_websocket.launch
 ```
-En la carpeta ***Interfaz_v5*** que se descarga se encuentra un archivo de pythotn llamado ***ListarDatos.py***, debe abrir una teminal en esta dirección y ejecutar este script con el siguiente comando.
-
+En la carpeta ***Interfaz_v5*** que se descarga se encuentra un archivo de pythotn llamado ***ListarDatos.py***, debe abrir una teminal en esta dirección y ejecutar este script con el siguiente comando:
 ```bash
 $ python ListarDatos.py
 ```
-Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** 
+Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta.
 
 **Nota**: Puede navegar por la platorma con las diferentes opciones que permite ejecutar, sin embargo para esta versión está inabilitada la opción de ejecutar trayetorias predefinidas.
