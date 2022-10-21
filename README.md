@@ -61,7 +61,7 @@ El siguiente ejecutable es cosntruido en Unity3d se puede descargar de [ejecutab
 
 ###  Uso de ejecutable:
 
-**Nota**: Se debe tener inicialiado el simulador con su configuración respectiva mensionada aquí.
+**Nota**: Se debe tener inicialiado el simulador con su configuración respectiva mensionada [aquí](https://github.com/sebastian775/UR3Project/releases/download/v5/Ejecutable.zip).
 
 Desde una teminal ejecuta lo siguiente:
 
