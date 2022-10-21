@@ -1,4 +1,4 @@
-# UR3 Project (work in construction work, V5)
+# UR3 Project (work in construction , V5)
 
 ## Requirements: 
   - Ubuntu 18.04
@@ -46,11 +46,8 @@ sudo apt-get install ros-melodic-rosbridge-server
 ```
 
 ### Download v5 executable 
-El siguiente ejecutable es cosntruido en Unity3d se puede descargar de [ejecutable_v5](https://github.com/sebastian775/UR3Project/releases/download/v5/Ejecutable_v5.zip), descomprimir el archivo en su carpeta de preferencia y  ejecutar el archivo llamado ***PPMUR3.x86_64*** 
-*Nota*: Puede navegar por la platorma con las diferentes opciones que permite ejecutar, sin embargo para esta versión está inabilitada la opción de ejecutar trayetorias predefinidas.
-```bash
+El siguiente ejecutable es cosntruido en Unity3d se puede descargar de [ejecutable_v5](https://github.com/sebastian775/UR3Project/releases/download/v5/Ejecutable_v5.zip) el cual dede descomprimirse en .
 
-```
 ###  Uso de ejecutable
 
 *Nota*: Deberá tener inicialiado el simulador con su configuración respectiva mensionada aquí.
@@ -58,6 +55,8 @@ El siguiente ejecutable es cosntruido en Unity3d se puede descargar de [ejecutab
 Desde una teminal ejecuta lo siguiente:
 
 ```bash
+# Se onicicializa el controlador del robot
+
 $ cd catkin_ws
 $ source devel/setup.bash
 # "Comando rápido", esto ejecuta el controlador del robot
@@ -68,8 +67,10 @@ En una nueva terminal ejecutar
 ```bash
 $ roslaunch rosbridge_server rosbridge_websocket.launch
 ```
-En la carpeta *Interfaz_v5* que se descargó encontrará un archivo de pythotn llamado **ListarDatos.py**, Abre una teminal en esta dirección y ejecutael siguiente comando.
+En la carpeta ***Interfaz_v5** que se descarga se encuentra un archivo de pythotn llamado ***ListarDatos.py***, debe abrir una teminal en esta dirección y ejecutar este script con el siguiente comando.
 
 ```bash
 $ python ListarDatos.py
 ```
+Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** 
+*Nota*: Puede navegar por la platorma con las diferentes opciones que permite ejecutar, sin embargo para esta versión está inabilitada la opción de ejecutar trayetorias predefinidas.
