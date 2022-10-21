@@ -5,7 +5,7 @@
   - ROS Melodic
   - URSim or Real Robot
 
-Note: It is very important to have a clean workstation (catkin_ws), especially if there are Universal Robot files in it, as this may cause a conflict when compiling the catkin_ws.
+**Note**: It is very important to have a clean workstation (catkin_ws), especially if there are Universal Robot files in it, as this may cause a conflict when compiling the catkin_ws.
 
 The following commands are executed consecutively in a single terminal:
 This allows you to create both the workspace and install packages, drives etc, that allow you to manipulate the UR robots.
@@ -38,7 +38,7 @@ $ catkin_make
 $ source devel/setup.bash
 ```
 
-## rosbridge installation
+## Rosbridge installation:
 Rosbridge proporciona una API JSON para comunicar programas con ROS.
 
 ```bash
@@ -55,14 +55,14 @@ El siguiente ejecutable es cosntruido en Unity3d se puede descargar de [ejecutab
 Desde una teminal ejecuta lo siguiente:
 
 ```bash
-# Se onicicializa el controlador del robot
+# Se inicicializa el controlador del robot
 
 $ cd catkin_ws
 $ source devel/setup.bash
 # "Comando rápido", esto ejecuta el controlador del robot
 $ roslaunch ur_robot_driver ur3_bringup.launch robot_ip:=<YOUR_IP> limited:=true
 ```
-En una nueva terminal ejecutar
+En una nueva terminal ejecutar:
 
 ```bash
 $ roslaunch rosbridge_server rosbridge_websocket.launch
