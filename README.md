@@ -1,11 +1,11 @@
-# UR3 Project (in construction , V5)
+# UR3 Project (in construction , V5).
 
-## Requirements: 
+ ## :stop_sign: Requirements: 
   - Ubuntu 18.04
   - ROS Melodic
   - URSim or Real Robot
 
-## Contents: 
+## :scroll: Contents: 
   - **Intefaz_v5**:    Contiene el proyecto contruido en Unity3d.
   - **Ejecutable**: Ejecutable del proyecto.
   
@@ -57,7 +57,7 @@ sudo apt-get install ros-melodic-rosbridge-server
 ```
 
 ### Download v5 executable:
-El siguiente ejecutable es cosntruido en Unity3d se puede descargar de [ejecutable_v5](https://github.com/sebastian775/UR3Project/releases/download/v5/Ejecutable_v5.zip) el cual dede descomprimirse en .
+El siguiente ejecutable es cosntruido en Unity3d se puede descargar de [ejecutable](https://github.com/sebastian775/UR3Project/releases/download/v5/Ejecutable.zip) el cual dede descomprimirse en .
 
 ###  Uso de ejecutable:
 
