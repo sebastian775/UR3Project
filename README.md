@@ -70,7 +70,7 @@ Desde una teminal ejecuta lo siguiente:
 $ cd catkin_ws
 $ source devel/setup.bash
 # "Comando rápido", esto ejecuta el controlador del robot
-$ roslaunch ur_robot_driver ur3_bringup.launch robot_ip:=<YOUR_IP> limited:=true
+$ roslaunch ur_robot_driver ur3e_bringup.launch robot_ip:=<YOUR_IP> limited:=true
 ```
 En una nueva terminal ejecutar:
 
