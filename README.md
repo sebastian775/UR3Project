@@ -60,7 +60,7 @@ sudo apt-get install ros-melodic-rosbridge-server
 El siguiente ejecutable es construido en Unity3d se puede descargar de [ejecutable](https://github.com/sebastian775/UR3Project/releases/download/v5/Ejecutable.zip)
 ###  Uso de ejecutable:
 
-**Nota**: Se debe tener inicialiado el simulador con su configuración respectiva mensionada [aquí](https://github.com/sebastian775/UR3Project/releases/download/v5/Ejecutable.zip).
+**Nota**: Se debe tener inicialiado el simulador con su configuración respectiva mensionada [aquí](https://github.com/sebastian775/URSimManual/blob/sebas/README.md).
 
 Desde una teminal ejecuta lo siguiente:
 
