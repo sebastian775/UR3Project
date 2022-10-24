@@ -85,3 +85,12 @@ $ python ListarDatos.py
 Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta.
 
 **Nota**: Puede navegar por la platorma con las diferentes opciones que permite ejecutar, sin embargo para esta versión está inabilitada la opción de ejecutar trayetorias predefinidas.
+
+ ## Tabla para generar una trayectoria cuadrada.
+
+| **x** | **w** | **z** | **xw** | **yw** | **zw** | **w** |
+|-------|-------|-------|--------|--------|--------|-------|
+| -0,25 | -0,15 | 0,14  | 1      | 0      | 0      | 0     |
+| -0,1  | -0,25 | 0,14  | 1      | 0      | 0      | 0     |
+| -0,25 | -0,3  | 0,14  | 1      | 0      | 0      | 0     |
+| -0,25 | -0,15 | 0,14  | 1      | 0      | 0      | 0     |
