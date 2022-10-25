@@ -8,7 +8,7 @@ Editado
   - URSim or Real Robot.
 
 ## :scroll: Contents: 
-  - **Intefaz_v5**:    Contiene el proyecto contruido en Unity3d.
+  - **Intefaz_v5**:    Contiene el proyecto construido en Unity3d.
   - **Ejecutable**: Ejecutable del proyecto.
   - [Video Soporte](https://youtu.be/1Sj_1Pt1_pQ)
   
@@ -60,15 +60,15 @@ sudo apt-get install ros-melodic-rosbridge-server
 ```
 
 ### Download v5 executable:
-El siguiente ejecutable es construido en Unity3d se puede descargar de [ejecutable](https://github.com/sebastian775/UR3Project/releases/download/v5/Ejecutable.zip)
+El siguiente ejecutable es construido en Unity3d, se puede descargar de [ejecutable](https://github.com/sebastian775/UR3Project/releases/download/v5/Ejecutable.zip)
 ###  Uso de ejecutable:
 
-**Nota**: Se debe tener inicialiado el simulador con su configuración respectiva mensionada [aquí](https://github.com/sebastian775/URSimManual/blob/sebas/README.md).
+**Nota**: Se debe tener inicializado el simulador con su configuración respectiva mencionada [aquí](https://github.com/sebastian775/URSimManual/blob/sebas/README.md).
 
-Desde una teminal ejecuta lo siguiente:
+Desde una teminal ejecutar lo siguiente:
 
 ```bash
-# Se inicicializa el controlador del robot
+# Se inicializa el controlador del robot
 
 $ cd catkin_ws
 $ source devel/setup.bash
@@ -84,11 +84,12 @@ En la carpeta ***Interfaz_v5*** que se descarga se encuentra un archivo de pytho
 ```bash
 $ python ListarDatos.py
 ```
-Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta.
+Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta (dar doble click sobre el ícono).
 
 **Nota**: Puede navegar por la platorma con las diferentes opciones que permite ejecutar, sin embargo para esta versión está inabilitada la opción de ejecutar trayetorias predefinidas.
 
- ## Tabla para generar una trayectoria cuadrada.
+
+ ## Tabla de ejemplo para generar una trayectoria cuadrada.
 
 | **x** | **w** | **z** | **xw** | **yw** | **zw** | **w** |
 |-------|-------|-------|--------|--------|--------|-------|
