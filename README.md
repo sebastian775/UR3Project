@@ -3,7 +3,7 @@
  ## :stop_sign: Requirements: 
   - Ubuntu 18.04
   - ROS Melodic
-  - URSim or Real Robot
+  - URSim or Real Robot.
 
 ## :scroll: Contents: 
   - **Intefaz_v5**:    Contiene el proyecto contruido en Unity3d.
