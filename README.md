@@ -85,7 +85,7 @@ En la carpeta ***Interfaz_v5*** que se descarga se encuentra un archivo de pytho
 ```bash
 $ python ListarDatos.py
 
-$ SOLO si su versión es python3
+# SOLO si su versión es python3
 $ python3 ListarDatos.py
 ```
 Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta (dar doble click sobre el ícono).
