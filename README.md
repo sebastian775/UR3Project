@@ -81,8 +81,12 @@ En una nueva terminal ejecutar:
 $ roslaunch rosbridge_server rosbridge_websocket.launch
 ```
 En la carpeta ***Interfaz_v5*** que se descarga se encuentra un archivo de pythotn llamado ***ListarDatos.py***, debe abrir una teminal en esta dirección y ejecutar este script con el siguiente comando:
+
 ```bash
 $ python ListarDatos.py
+
+$ SOLO si su versión es python3
+$ python3 ListarDatos.py
 ```
 Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta (dar doble click sobre el ícono).
 
