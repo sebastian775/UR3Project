@@ -82,6 +82,7 @@ $ roslaunch rosbridge_server rosbridge_websocket.launch
 ```
 En la carpeta ***Interfaz_v5*** que se descarga se encuentra un archivo de pythotn llamado ***ListarDatos.py***, debe abrir una teminal en esta dirección y ejecutar este script con el siguiente comando:
 
+**NOTA**: Se requiere contar con la python3.
 ```bash
 $ python3 ListarDatos.py
 ```
