@@ -12,15 +12,16 @@ Editado
   - **Ejecutable**: Ejecutable del proyecto.
   - [Video Soporte](https://youtu.be/1Sj_1Pt1_pQ)
   
- ## :scroll: For the next version (v6): 
+ ## :exclamation: For the next version (v6): 
   - Se agrega el control por velocidad para la parte cartesiana.
   - Agrega función que muestra cordenadas de orientación y posición actuales del robot.
   - Mejorar en presición articular y apariencia en este panel.
   - Se modifica el panel cartesiano sustituyendo quaternions por grados (RPY°).
   - Se modifica las unidades de las posiciones cartesianas a cm.
   - Se agrega modelo 3D de la pinza propuesta.
+  - Solución de bug
   
-  
+--------------------
   
    <p align="center">
 
