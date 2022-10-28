@@ -13,7 +13,7 @@ Editado
   - [URSim Manual Install ](https://github.com/sebastian775/URSimManual/blob/sebas/README.md)
   - [Video Soporte](https://youtu.be/1Sj_1Pt1_pQ)
   
- ## :exclamation: For the next version (v6): 
+ ## :exclamation: For the next version (V6): 
   - Se agrega el control por velocidad para la parte cartesiana.
   - Se grega función que muestra ls cordenadas de orientación y posición actuales del robot en pantalla.
   - Mejorar en presición articular y apariencia en este panel.
