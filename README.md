@@ -15,14 +15,15 @@ Editado
   
  ## :exclamation: For the next version (V6): 
   - Se agrega el control por velocidad para la parte cartesiana.
-  - Se grega función que muestra ls cordenadas de orientación y posición actuales del robot en pantalla.
-  - Mejorar en presición articular y apariencia en este panel.
-  - Se modifica el panel cartesiano sustituyendo quaternions por grados (RPY°).
-  - Se modifica las unidades de las posiciones cartesianas a cm.
-  - Se agrega modelo 3D de la pinza propuesta.
-  - Se automatizarán las terminales para evitar procedimientos engorrozos.
-  - Solución problema de interpolación en las rotaciones.
-  - Solución de bugs
+  - Se agrega la función que muestra las cordenadas de orientación y posición actuales del robot en pantalla.
+  - Mejorar en precisión articular y apariencia en este panel.
+  - Se modifica el panel cartesiano sustituyendo cuaterniones por grados (RPY°).
+  - Se modifican las unidades de las posiciones cartesianas a centímetros.
+  - Se agrega el modelo 3D de la pinza propuesta.
+  - Se automatizan las terminales para evitar procedimientos engorrosos.
+  - Solución al problema de interpolación en las rotaciones.
+  - Solución de bugs.
+  
   
 --------------------
   
