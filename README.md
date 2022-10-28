@@ -15,7 +15,7 @@ Editado
   
  ## :exclamation: For the next version (v6): 
   - Se agrega el control por velocidad para la parte cartesiana.
-  - Agrega función que muestra cordenadas de orientación y posición actuales del robot.
+  - Se grega función que muestra ls cordenadas de orientación y posición actuales del robot en pantalla.
   - Mejorar en presición articular y apariencia en este panel.
   - Se modifica el panel cartesiano sustituyendo quaternions por grados (RPY°).
   - Se modifica las unidades de las posiciones cartesianas a cm.
