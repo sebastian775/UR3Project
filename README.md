@@ -10,6 +10,7 @@ Editado
 ## :scroll: Contents: 
   - **Intefaz_v5**:    Contiene el proyecto construido en Unity3d.
   - **Ejecutable**: Ejecutable del proyecto.
+  - [URSim Manual Install ](https://github.com/sebastian775/URSimManual/blob/sebas/README.md)
   - [Video Soporte](https://youtu.be/1Sj_1Pt1_pQ)
   
  ## :exclamation: For the next version (v6): 
