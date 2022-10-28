@@ -3,7 +3,7 @@ Editado
 # UR3 Project (in construction , V5).
 
  ## :stop_sign: Requirements: 
-  - Ubuntu 18.04
+  - Ubuntu 18.04 +
   - ROS Melodic
   - URSim or Real Robot.
 
