@@ -20,6 +20,7 @@ Editado
   - Se modifica el panel cartesiano sustituyendo quaternions por grados (RPY°).
   - Se modifica las unidades de las posiciones cartesianas a cm.
   - Se agrega modelo 3D de la pinza propuesta.
+  - Se automatizarán las terminales para evitar procedimientos engorrozos
   - Solución de bugs
   
 --------------------
