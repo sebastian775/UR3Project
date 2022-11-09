@@ -1,0 +1,679 @@
+Unity Editor version:    2021.3.0f1 (6eacc8284459)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #147~18.04.1-Ubuntu SMP Sat Oct 15 13:10:18 UTC 2022
+Kernel version:          5.4.0-131-generic
+Architecture:            x86_64
+Available memory:        11859 MB
+Using pre-set license
+Pro License: YES
+
+(Unity:8310): Gdk-CRITICAL **: 00:29:11.277: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+Desktop is 1366 x 768 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/ur/Documentos/Interfaz_v6
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+37571
+Successfully changed project path to: /home/ur/Documentos/Interfaz_v6
+/home/ur/Documentos/Interfaz_v6
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 386,02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path /home/ur/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/ur/Documentos/Interfaz_v6/Assets
+GLX Extensions: GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: Mesa DRI Intel(R) HD Graphics 520 (SKL GT2)
+Vendor:   Intel Open Source Technology Center
+Version:  4.6 (Core Profile) Mesa 20.0.8
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_APPLE_object_purgeable GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_stat
+e_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_
+coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_
+rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_flo
+at GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM
+_multimode_draw_arrays GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1856516352
+Initialize mono
+Mono path[0] = '/home/ur/Unity/Hub/Editor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = '/home/ur/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/ur/Unity/Hub/Editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56310
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/ur/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0,012560 seconds.
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 266,30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1,763 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1764ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (6ms)
+		EndReloadAssembly (1300ms)
+			LoadAssemblies (155ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (322ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (765ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (266ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (360ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0,020512 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 283,22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3,530 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3533ms)
+		BeginReloadAssembly (317ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2901ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1044ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (185ms)
+			SetupLoadedEditorAssemblies (1310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (283ms)
+				BeforeProcessingInitializeOnLoad (258ms)
+				ProcessInitializeOnLoadAttributes (602ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1,66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 4087 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (58,4 KB). Loaded Objects now: 4548.
+Memory consumption went from 161,3 MB to 161,3 MB.
+Total: 13,742742 ms (FindLiveObjects: 1,236497 ms CreateObjectMapping: 0,876919 ms MarkObjects: 11,248229 ms  DeleteObjects: 0,376946 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 636,985656 seconds.
+  path: Packages/com.unity.robotics.visualizations/package.json
+  artifactKey: Guid(0b2a1e8df19eb2e4a9bc2fac53c4a300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/package.json using Guid(0b2a1e8df19eb2e4a9bc2fac53c4a300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846f6ae6099ed775baed22b76e81496b') in 0,036368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000028 seconds.
+  path: Packages/com.unity.robotics.visualizations/DefaultVisualizationSuite.prefab
+  artifactKey: Guid(7e8ecfd17cd58c247916864b74797f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/DefaultVisualizationSuite.prefab using Guid(7e8ecfd17cd58c247916864b74797f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e60e973288ad41de9fff3f6b92a9c12') in 0,115270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000043 seconds.
+  path: Packages/com.unity.robotics.visualizations/EmptyVisualizationSuite.prefab
+  artifactKey: Guid(8968dd66bff86df47bc992562d7a9082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/EmptyVisualizationSuite.prefab using Guid(8968dd66bff86df47bc992562d7a9082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1798ed76afb3ddbd61b52f4a7bbe77c4') in 0,011409 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,020285 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,746 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2748ms)
+		BeginReloadAssembly (299ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (110ms)
+		EndReloadAssembly (2152ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (816ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (133ms)
+			SetupLoadedEditorAssemblies (874ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (515ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12,74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (71,8 KB). Loaded Objects now: 4551.
+Memory consumption went from 159,3 MB to 159,2 MB.
+Total: 12,212293 ms (FindLiveObjects: 0,431875 ms CreateObjectMapping: 0,355598 ms MarkObjects: 10,174932 ms  DeleteObjects: 1,247808 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,020768 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 2,01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,938 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2939ms)
+		BeginReloadAssembly (355ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (157ms)
+		EndReloadAssembly (2268ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (845ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (141ms)
+			SetupLoadedEditorAssemblies (950ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (51ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (576ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7,02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (57,9 KB). Loaded Objects now: 4554.
+Memory consumption went from 159,3 MB to 159,2 MB.
+Total: 8,351481 ms (FindLiveObjects: 0,519734 ms CreateObjectMapping: 0,404791 ms MarkObjects: 6,663093 ms  DeleteObjects: 0,760797 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,019328 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,681 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2683ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2111ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (796ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (895ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (534ms)
+				ProcessInitializeOnLoadMethodAttributes (110ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7,42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (57,9 KB). Loaded Objects now: 4557.
+Memory consumption went from 159,3 MB to 159,2 MB.
+Total: 9,517009 ms (FindLiveObjects: 0,541868 ms CreateObjectMapping: 0,415344 ms MarkObjects: 7,918279 ms  DeleteObjects: 0,638668 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,020037 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,927 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2929ms)
+		BeginReloadAssembly (346ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (2303ms)
+			LoadAssemblies (149ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (853ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (154ms)
+			SetupLoadedEditorAssemblies (967ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (212ms)
+				ProcessInitializeOnLoadAttributes (567ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7,55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (57,9 KB). Loaded Objects now: 4560.
+Memory consumption went from 159,3 MB to 159,2 MB.
+Total: 10,176534 ms (FindLiveObjects: 0,600674 ms CreateObjectMapping: 0,574013 ms MarkObjects: 8,342227 ms  DeleteObjects: 0,657500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 940,386039 seconds.
+  path: Packages/com.unity.robotics.visualizations/Runtime/DefaultVisualizers/TFSystemVisualizer.cs
+  artifactKey: Guid(89775f84ec1b05048997be0d603cca35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Runtime/DefaultVisualizers/TFSystemVisualizer.cs using Guid(89775f84ec1b05048997be0d603cca35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a598f96d933df81b580a27d11d25c0') in 0,021385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54,342137 seconds.
+  path: Packages/com.unity.robotics.visualizations/Runtime/DefaultVisualizers/Trajectory
+  artifactKey: Guid(8757b954cdf62834cb5b49da10ca8e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Runtime/DefaultVisualizers/Trajectory using Guid(8757b954cdf62834cb5b49da10ca8e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33111bfe49e15bb68333b5afac0e6e0d') in 0,001122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3,330395 seconds.
+  path: Packages/com.unity.robotics.visualizations/Runtime/DefaultVisualizers/Trajectory/JointTrajectoryDefaultVisualizer.cs
+  artifactKey: Guid(f99e8ef135fd8d14194efcb02e2b240a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Runtime/DefaultVisualizers/Trajectory/JointTrajectoryDefaultVisualizer.cs using Guid(f99e8ef135fd8d14194efcb02e2b240a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f737ca1a06cc09c40ff77f4b285a626') in 0,001376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8,691637 seconds.
+  path: Packages/com.unity.robotics.visualizations/Runtime/DefaultVisualizers/Visualization
+  artifactKey: Guid(fe65b1af9983acb4fb5713ed2d0416b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Runtime/DefaultVisualizers/Visualization using Guid(fe65b1af9983acb4fb5713ed2d0416b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbc758ee394fa5519f7949bb8aa13f3') in 0,002021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3,231461 seconds.
+  path: Packages/com.unity.robotics.visualizations/Runtime/DefaultVisualizers/Visualization/MarkerDefaultVisualizer.cs
+  artifactKey: Guid(90600d3790e079d49997a5f9f09d01d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Runtime/DefaultVisualizers/Visualization/MarkerDefaultVisualizer.cs using Guid(90600d3790e079d49997a5f9f09d01d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08423d6981a0026466ea4d774dd368d') in 0,001245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12,993347 seconds.
+  path: Packages/com.unity.ide.visualstudio/package.json
+  artifactKey: Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.visualstudio/package.json using Guid(656f74f6edaa396458412b9e3903d8cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7c492f8a49c25c8cf3003332749c69') in 0,027372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1,046694 seconds.
+  path: Packages/com.unity.ide.vscode/package.json
+  artifactKey: Guid(ffc6271f08270b64ca0aae9c49235d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.vscode/package.json using Guid(ffc6271f08270b64ca0aae9c49235d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9797d3eb575af519a91cff9ea5b73f84') in 0,004235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2,836974 seconds.
+  path: Packages/com.unity.robotics.visualizations/Runtime/Drawing3d/Drawing3dManager.prefab
+  artifactKey: Guid(57cef4e772232da4b92e8f8931f3cc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Runtime/Drawing3d/Drawing3dManager.prefab using Guid(57cef4e772232da4b92e8f8931f3cc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268e65593d75ffd09416ba15b8f9c07a') in 0,045575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3,546142 seconds.
+  path: Packages/com.unity.robotics.visualizations/Runtime/ExampleVisualizers/PointTracingVisualizerExample.cs
+  artifactKey: Guid(e0b7d853d9445db4eb15e4113a720594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Runtime/ExampleVisualizers/PointTracingVisualizerExample.cs using Guid(e0b7d853d9445db4eb15e4113a720594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f533f0b1f75716dc62a72c1bfc8064') in 0,001314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15,151338 seconds.
+  path: Packages/com.unity.toolchain.linux-x86_64/package.json
+  artifactKey: Guid(b75d9a0470b1635b1a19f29fe9d743da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.toolchain.linux-x86_64/package.json using Guid(b75d9a0470b1635b1a19f29fe9d743da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b08eb42e79a725f493983d91b4980ed') in 0,003121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15,471750 seconds.
+  path: Packages/com.unity.robotics.visualizations/Runtime
+  artifactKey: Guid(93a2f4eec24ea4242acc343ee1da42d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Runtime using Guid(93a2f4eec24ea4242acc343ee1da42d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8242445861b177cdbe773fd13ac61a12') in 0,001493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1,060517 seconds.
+  path: Packages/com.unity.robotics.visualizations/Resources
+  artifactKey: Guid(a6da88139e73b404a83fe719fc82af90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Resources using Guid(a6da88139e73b404a83fe719fc82af90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5aaacc38accea2ab344dafc113c77b') in 0,002096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4,085661 seconds.
+  path: Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings
+  artifactKey: Guid(446495620753543beaf7487d9451c1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings using Guid(446495620753543beaf7487d9451c1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d1e35462901df34db0643273876c60') in 0,002388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,061980 seconds.
+  path: Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings/JoyVisualizerSettings_Xbox360LinuxWired.asset
+  artifactKey: Guid(44f092bafc464034fa6e4e64241e7d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings/JoyVisualizerSettings_Xbox360LinuxWired.asset using Guid(44f092bafc464034fa6e4e64241e7d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcc88efca9e782361d6e390d3f41987') in 0,002430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000032 seconds.
+  path: Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings/LaserScanFerrybotVisualizerSettings.asset
+  artifactKey: Guid(61008a554349cfb439d80db19c3e6f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings/LaserScanFerrybotVisualizerSettings.asset using Guid(61008a554349cfb439d80db19c3e6f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3288c653c461ecc5ab28f4a6cc070dd1') in 0,003604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000041 seconds.
+  path: Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings/LaserScanFindbot2VisualizerSettings.asset
+  artifactKey: Guid(2820c2f76e52c9e418bb8ed03b111b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings/LaserScanFindbot2VisualizerSettings.asset using Guid(2820c2f76e52c9e418bb8ed03b111b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03e1b90b7ffc93f35b3d2e05615b098') in 0,002388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000029 seconds.
+  path: Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings/JoyVisualizerSettings_Xbox360Windows.asset
+  artifactKey: Guid(7502d623bf6f41343b1e21d0160765cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings/JoyVisualizerSettings_Xbox360Windows.asset using Guid(7502d623bf6f41343b1e21d0160765cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cca8ce65ab9e1d62e69a3e6c7ccde8c') in 0,002260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000028 seconds.
+  path: Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings/LaserScanFindbotVisualizerSettings.asset
+  artifactKey: Guid(09d3908a6e6e7bc42a2ade90bd55175b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings/LaserScanFindbotVisualizerSettings.asset using Guid(09d3908a6e6e7bc42a2ade90bd55175b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800c5f83d80388bcc22773500eba8bf1') in 0,002502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,000031 seconds.
+  path: Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings/PointCloud2VisualizerSettings.asset
+  artifactKey: Guid(f1d2df8bcd83d4410b03e8a6ddd5eac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.robotics.visualizations/Resources/VisualizerSettings/PointCloud2VisualizerSettings.asset using Guid(f1d2df8bcd83d4410b03e8a6ddd5eac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a8e655f09dbb5c8ca3d982d885610f') in 0,003421 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,020144 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2911ms)
+		BeginReloadAssembly (320ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (2278ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (818ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (155ms)
+			SetupLoadedEditorAssemblies (983ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (587ms)
+				ProcessInitializeOnLoadMethodAttributes (121ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7,10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (71,8 KB). Loaded Objects now: 4563.
+Memory consumption went from 159,3 MB to 159,2 MB.
+Total: 9,108599 ms (FindLiveObjects: 0,492903 ms CreateObjectMapping: 0,430383 ms MarkObjects: 7,211746 ms  DeleteObjects: 0,970679 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0,018839 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /home/ur/Documentos/Interfaz_v6/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 1,86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2,495 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2497ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (1929ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (789ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (128ms)
+			SetupLoadedEditorAssemblies (727ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (145ms)
+				ProcessInitializeOnLoadAttributes (435ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5,11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0,00 ms.
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (57,9 KB). Loaded Objects now: 4581.
+Memory consumption went from 159,7 MB to 159,6 MB.
+Total: 6,782249 ms (FindLiveObjects: 0,433778 ms CreateObjectMapping: 0,364940 ms MarkObjects: 5,402983 ms  DeleteObjects: 0,578091 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 606,309748 seconds.
+  path: Assets/graph-visualizer
+  artifactKey: Guid(a9472b6200fbd5eb1ac273cdfb2da2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graph-visualizer using Guid(a9472b6200fbd5eb1ac273cdfb2da2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f717d74664b1eb08778e8c69819a0b5') in 0,008097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3,114200 seconds.
+  path: Assets/graph-visualizer/Tests
+  artifactKey: Guid(db91a525414eed845a7f8efa1070a218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graph-visualizer/Tests using Guid(db91a525414eed845a7f8efa1070a218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa6e496d598d18082e8d9b7cda78fd1f') in 0,001393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1,048848 seconds.
+  path: Assets/graph-visualizer/Tests/Runtime
+  artifactKey: Guid(e4c186e2d570110b48de95a1c5fecc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graph-visualizer/Tests/Runtime using Guid(e4c186e2d570110b48de95a1c5fecc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c0230bdcbfec4efc3781c5227ef363') in 0,001570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,073840 seconds.
+  path: Assets/graph-visualizer/Tests/Runtime/Unity.PlayableGraphVisualizer.Tests.asmdef
+  artifactKey: Guid(24b367a1e8631110f924a62b35bba83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graph-visualizer/Tests/Runtime/Unity.PlayableGraphVisualizer.Tests.asmdef using Guid(24b367a1e8631110f924a62b35bba83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67e1eedee49b1e47bcb8be4219ffefc') in 0,000928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10,297338 seconds.
+  path: Assets/graph-visualizer/Editor
+  artifactKey: Guid(d39aa905569c24bf2a618d7edb0bb147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graph-visualizer/Editor using Guid(d39aa905569c24bf2a618d7edb0bb147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67181b0a422d7ac5473e6b9b6f3ca1d') in 0,001582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0,960166 seconds.
+  path: Assets/graph-visualizer/Editor/Unity.PlayableGraphVisualizer.Editor.asmdef
+  artifactKey: Guid(2702b94ed25b25fdda2226e5c974e9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/graph-visualizer/Editor/Unity.PlayableGraphVisualizer.Editor.asmdef using Guid(2702b94ed25b25fdda2226e5c974e9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941f9652e063fec71fed678eee78c034') in 0,001972 seconds 

@@ -1,0 +1,566 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1667323310242919, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323310246516, "dur": 49554, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323310296502, "dur": 88434, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323310385121, "dur": 455270, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323310840398, "dur": 8066088, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323318906586, "dur": 10788, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323326112333, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323326112986, "dur": 12661, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323326125650, "dur": 48040, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323326173694, "dur": 401900, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323326575601, "dur": 179431, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323326755038, "dur": 1169, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323326756587, "dur": 92, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1667323326345145, "dur": 207626, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667323326346803, "dur": 92326, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667323326527435, "dur": 6738, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667323326534179, "dur": 18568, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667323326535400, "dur": 16931, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667323326559950, "dur": 2387, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1667323326559064, "dur": 3338, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323326756843, "dur": 196, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1667323326625036, "dur":477, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326625530, "dur":25, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1667323326625575, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1667323326625591, "dur":269, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1667323326625890, "dur":508, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326626399, "dur":5, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326733200, "dur":1395, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734598, "dur":41, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734640, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734643, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734651, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734654, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734661, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734665, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734671, "dur":25, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734697, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734705, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734715, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734726, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734735, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734744, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734755, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734769, "dur":3, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734797, "dur":6, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326734810, "dur":729, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1667323326625678, "dur":744, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667323326626430, "dur":3260, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667323326629697, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/LinuxPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1667323326629704, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667323326632054, "dur":800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667323326632904, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667323326633030, "dur":466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1667323326633513, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667323326633576, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667323326633594, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667323326633770, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1667323326633836, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667323326633860, "dur":15984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1667323326649870, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667323326649940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667323326649951, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667323326650102, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667323326650165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667323326650174, "dur":128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667323326650309, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667323326651120, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667323326651132, "dur":3881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1667323326655034, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1667323326655078, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667323326655090, "dur":84, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1667323326655185, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/data.unity3d" }}
+,{ "pid":12345, "tid":1, "ts":1667323326655199, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1667323326655210, "dur":12149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/data.unity3d" }}
+,{ "pid":12345, "tid":1, "ts":1667323326667377, "dur":67154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326625716, "dur":723, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326626443, "dur":3274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326629724, "dur":1455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326631219, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326631283, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326633174, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667323326633600, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326633661, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667323326633817, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1667323326634139, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326634151, "dur":102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1667323326634264, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/MessageGeneration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326634311, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326634563, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/MessageGeneration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326634707, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667323326634744, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326634761, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667323326635484, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326635570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326635597, "dur":186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326635796, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/vhacd.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326635832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326635840, "dur":83, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/vhacd.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326635934, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667323326635953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326635972, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1667323326637295, "dur":3787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667323326641121, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326641142, "dur":238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1667323326641397, "dur":2092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326643494, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326643508, "dur":6020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326649542, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326649607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326649621, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326650572, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326650620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326650631, "dur":110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326650755, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326650794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326650803, "dur":205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Buffers.dll" }}
+,{ "pid":12345, "tid":2, "ts":1667323326651022, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":2, "ts":1667323326651041, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326651054, "dur":1266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":2, "ts":1667323326652336, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/UnityPlayer.so" }}
+,{ "pid":12345, "tid":2, "ts":1667323326652359, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1667323326652371, "dur":80620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/UnityPlayer.so" }}
+,{ "pid":12345, "tid":2, "ts":1667323326733019, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1667323326733027, "dur":2, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326625775, "dur":745, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326626522, "dur":7283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326633808, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1667323326633845, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326633873, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1667323326634953, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326635016, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326635053, "dur":202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326635269, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326635332, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326635351, "dur":221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326635586, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326635691, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326635709, "dur":210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326635934, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326635998, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326636014, "dur":194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326636227, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326636493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326636508, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326637287, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667323326637310, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326637424, "dur":210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1667323326637647, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.Robotics.UrdfImporter.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326637774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326637784, "dur":323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.Robotics.UrdfImporter.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326638118, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Urdf.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326638159, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326638169, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Urdf.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326638301, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326638360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326638442, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326638601, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Runtime.InteropServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326638646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326638656, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Runtime.InteropServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326638770, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326638924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326638932, "dur":370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326639318, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Newtonsoft.Json.Bson.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326639474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326639487, "dur":346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Newtonsoft.Json.Bson.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326639840, "dur":1716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326641561, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326641576, "dur":3933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326645520, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326645775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326645812, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326646466, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1667323326646476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326646486, "dur":104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1667323326646596, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/AssimpNet.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326646774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326646811, "dur":484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/AssimpNet.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326647310, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326647366, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326647379, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326647575, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326647618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326647628, "dur":107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326647748, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326647788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326647797, "dur":86, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326647894, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Globalization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326647927, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326647937, "dur":78, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Globalization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326648025, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326648057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326648114, "dur":86, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326648209, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326648295, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326648307, "dur":204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326648522, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Threading.Channels.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326648585, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326648594, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Threading.Channels.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326649373, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326649421, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326649438, "dur":131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326649582, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326649635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326649646, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326650426, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326650480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326650509, "dur":100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326650618, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326650664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326650673, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326650812, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Collections.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326650861, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326650871, "dur":338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Collections.dll" }}
+,{ "pid":12345, "tid":3, "ts":1667323326651217, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":3, "ts":1667323326651229, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326651241, "dur":397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/config" }}
+,{ "pid":12345, "tid":3, "ts":1667323326651658, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1667323326651692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1667323326651716, "dur":23112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1667323326674866, "dur":59736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326625775, "dur":701, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326626480, "dur":3220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326629708, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326629986, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326630404, "dur":217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326630634, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326630693, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326630711, "dur":168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326630895, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326631016, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326631032, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326631227, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326631326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326631341, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326631503, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Reflection.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326631551, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326631568, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Reflection.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326631749, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326631807, "dur":56, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326631880, "dur":233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326632131, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":4, "ts":1667323326632157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326632311, "dur":7046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":4, "ts":1667323326639380, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326639464, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326639478, "dur":100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326639587, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326639625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326639635, "dur":102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326639751, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326639793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326639803, "dur":112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326639927, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326640009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326640020, "dur":167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326640205, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326640236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326640245, "dur":100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326640362, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326640474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326640484, "dur":350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326640855, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326641148, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326641161, "dur":605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326641773, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326641874, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326641883, "dur":301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326642193, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Numerics.Vectors.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326642236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326642246, "dur":89, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Numerics.Vectors.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326642344, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Console.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326642376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326642387, "dur":309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Console.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326642707, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.AppContext.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326643152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326643166, "dur":358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.AppContext.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326643538, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326643610, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326643620, "dur":10733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1667323326654370, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Plugins/libassimp.so" }}
+,{ "pid":12345, "tid":4, "ts":1667323326654419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1667323326654531, "dur":21281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Plugins/libassimp.so" }}
+,{ "pid":12345, "tid":4, "ts":1667323326675835, "dur":57235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326625802, "dur":736, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326626539, "dur":4661, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326631211, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326631368, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326631392, "dur":266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326631674, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Microsoft.Bcl.AsyncInterfaces.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326631746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326631840, "dur":253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Microsoft.Bcl.AsyncInterfaces.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326632107, "dur":936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1667323326633053, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326633091, "dur":223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1667323326633331, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1667323326633950, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326634002, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1667323326634837, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326634900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326634911, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326635062, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326635249, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326635261, "dur":2163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326637441, "dur":6136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1667323326643582, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326643601, "dur":6311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1667323326649930, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Text.Encodings.Web.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650034, "dur":207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Text.Encodings.Web.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650253, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650289, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650299, "dur":86, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650398, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650448, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650578, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650631, "dur":93, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650738, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650795, "dur":130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650934, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650959, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326650978, "dur":12361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":5, "ts":1667323326663360, "dur":715, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326664084, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1667323326664101, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":5, "ts":1667323326665980, "dur":67176, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326625818, "dur":731, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326626551, "dur":3192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326629750, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326629954, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326630220, "dur":231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326630464, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326630807, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326630820, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326631518, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326631562, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326631571, "dur":126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326631712, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326631874, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326631891, "dur":428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326632334, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1667323326632386, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326632688, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1667323326633607, "dur":608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1667323326634224, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326634561, "dur":247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1667323326634825, "dur":1293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326636125, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326636140, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326639363, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Runtime.InteropServices.RuntimeInformation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326639404, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326639415, "dur":88, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Runtime.InteropServices.RuntimeInformation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326639514, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326639566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326639575, "dur":172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326639760, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326639823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326639833, "dur":234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326640143, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326640227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326640236, "dur":127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326640371, "dur":643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326641024, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326641046, "dur":677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326641736, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326641773, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326641785, "dur":86, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326642203, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326642240, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326642248, "dur":104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326642362, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326642395, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326642406, "dur":293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326642709, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326642955, "dur":412, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326643375, "dur":9988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326653383, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326653570, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326653593, "dur":4994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326658634, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.IO.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326658740, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326658767, "dur":212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.IO.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326658999, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326659111, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326659124, "dur":244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326659379, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326662651, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326662678, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326663085, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326663211, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326663227, "dur":173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326663415, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326663579, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326663813, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326664399, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326664610, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326664628, "dur":645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326665295, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326665365, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1667323326665383, "dur":157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1667323326665552, "dur":67736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326625845, "dur":719, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326626566, "dur":3195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326629771, "dur":1155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326630937, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326630963, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326633588, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1667323326633611, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326633661, "dur":373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1667323326634053, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326634118, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326634136, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326634311, "dur":1886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326636202, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326636219, "dur":657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326636889, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1667323326636907, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326637391, "dur":279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1667323326637681, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Text.Encoding.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326637723, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326637737, "dur":83, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Text.Encoding.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326637843, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326637891, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326637902, "dur":107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326638022, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Runtime.Extensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326638052, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326638064, "dur":63, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Runtime.Extensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326638137, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326638214, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326638224, "dur":83, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326638318, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326638792, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326638813, "dur":108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326638931, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Text.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326639205, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326639216, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Text.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326640169, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326640215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326640225, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326641535, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326641640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326641650, "dur":287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326641948, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326642009, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326642065, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326642200, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326642238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326642248, "dur":95, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326642350, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326642412, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326642422, "dur":290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326643090, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326643416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326643427, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326644180, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326644414, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326644427, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326645373, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326645736, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326645751, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326646783, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Reflection.Extensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326646823, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326646835, "dur":102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Reflection.Extensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326646950, "dur":1229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326648184, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326648197, "dur":3870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326652090, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion.x86_64" }}
+,{ "pid":12345, "tid":7, "ts":1667323326652117, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326652130, "dur":323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion.x86_64" }}
+,{ "pid":12345, "tid":7, "ts":1667323326652466, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326652514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326652525, "dur":110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326652647, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/RosBridgeClient.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326652867, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326652881, "dur":6660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/RosBridgeClient.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326659559, "dur":646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326660213, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326660231, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326661847, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326661905, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326661915, "dur":102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326662027, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326662458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1667323326662470, "dur":5274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1667323326667760, "dur":65321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326625877, "dur":698, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326626577, "dur":3120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326629704, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326629975, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326630282, "dur":324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326630619, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326630699, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326630713, "dur":201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326630929, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1667323326630977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326630992, "dur":178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1667323326631183, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Diagnostics.Debug.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326631235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326631328, "dur":154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Diagnostics.Debug.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326631498, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326631731, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326631748, "dur":718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326632482, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1667323326632509, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326632674, "dur":3612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1667323326636325, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":8, "ts":1667323326636341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326636446, "dur":172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":8, "ts":1667323326636629, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1667323326636654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326636714, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1667323326642631, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326642709, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326642741, "dur":420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326643169, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326643344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326643355, "dur":756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644130, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644190, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644208, "dur":122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644342, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644388, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644402, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644528, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.IO.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644559, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644573, "dur":104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.IO.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644688, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644732, "dur":89, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Memory.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644834, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644970, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326644981, "dur":369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326645360, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326645553, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326645567, "dur":640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326646222, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326646275, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326646290, "dur":111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326646417, "dur":1691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326648112, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326648124, "dur":6035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326654176, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326654279, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326654305, "dur":178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326654517, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Plugins/liblibvhacd.so" }}
+,{ "pid":12345, "tid":8, "ts":1667323326654985, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326655020, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Plugins/liblibvhacd.so" }}
+,{ "pid":12345, "tid":8, "ts":1667323326656820, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1667323326656899, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326656925, "dur":166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1667323326657102, "dur":4502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326661620, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1667323326661649, "dur":13581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/Aplicaion_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":8, "ts":1667323326675245, "dur":58072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1667323326736213, "dur":879, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1667323326757102, "dur": 1057, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1667323326756556, "dur": 1638, "ph": "X", "name": "Write chrome-trace events", "args": {} },
