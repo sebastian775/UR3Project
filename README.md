@@ -15,6 +15,8 @@ Editado
   
  ## :exclamation: For the next version (V6): 
   - Se agrega el control por velocidad para la parte cartesiana.
+  - Se agrega función de copiar posición articular y cartesiana del robot.
+  - Se agrega función eliminar cordenada definida y lista de cordenadas.
   - Se agrega la función que muestra las cordenadas de orientación y posición actuales del robot en pantalla.
   - Mejora en precisión cartesiana, articular y apariencia en este panel.
   - Se corrige problema de interpolación en las rotaciones.
