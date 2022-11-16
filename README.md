@@ -1,4 +1,4 @@
-# UR3 Project (in construction , V5).
+# UR3 Project (in construction , V5)
 
  ## :stop_sign: Requirements: 
   - Ubuntu 18.04 +
