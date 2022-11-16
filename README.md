@@ -14,7 +14,10 @@ version: 6.0
   - [Video Soporte](https://youtu.be/1Sj_1Pt1_pQ)
   
  ## :exclamation: For the next version (v7): 
-  - 
+  - Trayectoria libre.
+  - Editar cordenadas.
+  - Se agrega UR5.
+  - Mejora apariencia.
   - Solución de algunos bugs visuales.
   
   
@@ -101,9 +104,9 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 
  ## Tabla de ejemplo para generar una trayectoria cuadrada.
 
-| **x** | **w** | **z** | **xw** | **yw** | **zw** | **w** |
-|-------|-------|-------|--------|--------|--------|-------|
-| -0,25 | -0,15 | 0,14  | 1      | 0      | 0      | 0     |
-| -0,1  | -0,25 | 0,14  | 1      | 0      | 0      | 0     |
-| -0,25 | -0,3  | 0,14  | 1      | 0      | 0      | 0     |
-| -0,25 | -0,15 | 0,14  | 1      | 0      | 0      | 0     |
+| **x** | **w** | **z** | **xw** | **yw** | **zw** | 
+|-------|-------|-------|--------|--------|--------|
+| -25   | -15   |   14  | 180    | 0      | 0      | 
+| -10   | -25   |   14  | 180    | 0      | 0      |
+| -25   | -3    |   14  | 180    | 0      | 0      |
+| -25   | -15   |   14  | 180    | 0      | 0      |
