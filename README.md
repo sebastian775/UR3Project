@@ -30,7 +30,7 @@ Editado
   
    <p align="center">
 
- <img src="https://github.com/sebastian775/UR3Project/blob/main/Resource/v5img.png" alt="Universal Robot e-Series family" style="width: 70%;"/>
+ <img src="https://github.com/sebastian775/UR3Project/blob/v6/Resources/v5img.png" alt="Universal Robot e-Series family" style="width: 70%;"/>
 
  </p>
 
