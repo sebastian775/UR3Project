@@ -1,4 +1,5 @@
-# UR3 Project (in construction , V5)
+version 6.0
+# UR3 Project (in construction) 
 
  ## :stop_sign: Requirements: 
   - Ubuntu 18.04 +
@@ -11,16 +12,8 @@
   - [URSim Manual Install ](https://github.com/sebastian775/URSimManual/blob/sebas/README.md)
   - [Video Soporte](https://youtu.be/1Sj_1Pt1_pQ)
   
- ## :exclamation: For the next version (V6): 
-  - Se agrega el control por velocidad para la parte cartesiana.
-  - Se agrega función de copiar posición articular y cartesiana del robot.
-  - Se agrega función eliminar cordenada definida y lista de cordenadas.
-  - Se agrega función que muestra las cordenadas de orientación y posición actuales del robot en pantalla.
-  - Mejora en precisión cartesiana, articular y apariencia en este panel.
-  - Se corrige problema de interpolación en las rotaciones.
-  - Se modifica el panel cartesiano sustituyendo cuaterniones por grados (RPY°).
-  - Se modifican las unidades de las posiciones cartesianas a centímetros.
-  - Se agrega el modelo 3D de la pinza propuesta.
+ ## :exclamation: For the next version (v7): 
+  - 
   - Solución de algunos bugs visuales.
   
   
