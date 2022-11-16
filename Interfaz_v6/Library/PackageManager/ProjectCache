@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638042123560000000
+      ticks: 638042155290000000
     m_Hash: 1634364291
   m_LockFileStatus:
     m_FilePath: /home/ur/Documentos/UR3Project/Interfaz_v6/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638042123560000000
+      ticks: 638042155290000000
     m_Hash: 1005478861
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
