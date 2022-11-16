@@ -1,5 +1,6 @@
-version 6.0
-# UR3 Project (in construction) 
+# UR3 Project (in construction)
+version: 6.0
+
 
  ## :stop_sign: Requirements: 
   - Ubuntu 18.04 +
