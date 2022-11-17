@@ -1,6 +1,4 @@
-# UR3 Project (in construction)
-version: 6.0
-
+# UR3 Project (in construction , V5)
 
  ## :stop_sign: Requirements: 
   - Ubuntu 18.04 +
@@ -13,11 +11,16 @@ version: 6.0
   - [URSim Manual Install ](https://github.com/sebastian775/URSimManual/blob/sebas/README.md)
   - [Video Soporte](https://youtu.be/1Sj_1Pt1_pQ)
   
- ## :exclamation: For the next version (v7): 
-  - Trayectoria libre.
-  - Editar cordenadas.
-  - Se agrega UR5.
-  - Mejora apariencia.
+ ## :exclamation: For the next version (V6): 
+  - Se agrega el control por velocidad para la parte cartesiana.
+  - Se agrega función de copiar posición articular y cartesiana del robot.
+  - Se agrega función eliminar cordenada definida y lista de cordenadas.
+  - Se agrega función que muestra las cordenadas de orientación y posición actuales del robot en pantalla.
+  - Mejora en precisión cartesiana, articular y apariencia en este panel.
+  - Se corrige problema de interpolación en las rotaciones.
+  - Se modifica el panel cartesiano sustituyendo cuaterniones por grados (RPY°).
+  - Se modifican las unidades de las posiciones cartesianas a centímetros.
+  - Se agrega el modelo 3D de la pinza propuesta.
   - Solución de algunos bugs visuales.
   
   
@@ -104,9 +107,9 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 
  ## Tabla de ejemplo para generar una trayectoria cuadrada.
 
-| **x** | **w** | **z** | **xw** | **yw** | **zw** | 
-|-------|-------|-------|--------|--------|--------|
-| -25   | -15   |   14  | 180    | 0      | 0      | 
-| -10   | -25   |   14  | 180    | 0      | 0      |
-| -25   | -3    |   14  | 180    | 0      | 0      |
-| -25   | -15   |   14  | 180    | 0      | 0      |
+| **x** | **w** | **z** | **xw** | **yw** | **zw** | **w** |
+|-------|-------|-------|--------|--------|--------|-------|
+| -0,25 | -0,15 | 0,14  | 1      | 0      | 0      | 0     |
+| -0,1  | -0,25 | 0,14  | 1      | 0      | 0      | 0     |
+| -0,25 | -0,3  | 0,14  | 1      | 0      | 0      | 0     |
+| -0,25 | -0,15 | 0,14  | 1      | 0      | 0      | 0     |
