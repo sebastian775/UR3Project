@@ -108,7 +108,7 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 
  ## Tabla de ejemplo para generar una trayectoria cuadrada.
 
-| **x** | **w** | **z** | **xw** | **yw** | **zw** | **w** |
+| **x** | **y** | **z** | **xw** | **yw** | **zw** | **w** |
 |-------|-------|-------|--------|--------|--------|-------|
 | -0,25 | -0,15 | 0,14  | 1      | 0      | 0      | 0     |
 | -0,1  | -0,25 | 0,14  | 1      | 0      | 0      | 0     |
