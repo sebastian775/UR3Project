@@ -28,7 +28,7 @@
   
    <p align="center">
 
- <img src="https://github.com/sebastian775/UR3Project/blob/sebas/Resources/v6.png" alt="Universal Robot e-Series family" style="width: 70%;"/>
+ <img src="https://github.com/sebastian775/UR3Project/blob/sebas/Resources/v5img.png" alt="Universal Robot e-Series family" style="width: 70%;"/>
 
  </p>
 
