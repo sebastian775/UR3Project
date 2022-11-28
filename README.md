@@ -62,7 +62,7 @@ $ source devel/setup.bash
 Rosbridge proporciona una API JSON para comunicar programas con ROS.
 
 ```bash
-sudo apt-get install ros-melodic-rosbridge-server
+$ sudo apt-get install ros-melodic-rosbridge-server
 ```
 
 ### Download v5 executable:
