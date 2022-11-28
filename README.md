@@ -98,7 +98,7 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 **Nota**: Puede navegar por la platorma con las diferentes opciones que permite ejecutar, sin embargo para esta versión está inabilitada la opción de ejecutar trayetorias predefinidas.
 
 
- ## Tabla de ejemplo para prueba 3 puntos cartesianos 
+ ## Tabla de ejemplo para prueba 4 puntos cartesianos 
  Configuración TCP (x:0 y:-46 z:126)
 <p align="center">
 <img src="https://github.com/sebastian775/UR3Project/blob/sebas/Resources/TCP.png" alt="Universal Robot e-Series family" style="width: 50%;"/>
