@@ -1,9 +1,0 @@
-Base path: '/home/juanda/Unity/Hub/Editor/2021.3.0f1/Editor/Data', plugins path '/home/juanda/Unity/Hub/Editor/2021.3.0f1/Editor/Data/PlaybackEngines'
-Cmd: initializeCompiler
-
-<<<<<<< HEAD:Interfaz_v5/Logs/shadercompiler-AssetImportWorker0.log
-Unhandled exception: Protocol error - failed to read magic number (error -2147483644, transferred 0/4)
-
-Quitting shader compiler process
-=======
->>>>>>> 27b96f63 (se agrega carpeta v6):Interfaz_v6/Logs/shadercompiler-UnityShaderCompiler0.log
