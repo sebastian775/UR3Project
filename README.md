@@ -98,6 +98,8 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 **Nota**: Puede navegar por la platorma con las diferentes opciones que permite ejecutar, sin embargo para esta versión está inabilitada la opción de ejecutar trayetorias predefinidas.
 
 
- ## Tabla de ejemplo para prueba 3 puntos cartesianos (TCP:0 X: Y:-46 Z:126).
+ ## Tabla de ejemplo para prueba 3 puntos cartesianos 
+ Configuración TCP y:0  y:-46 z:126
+ 
  <table><thead><tr><th>X</th><th>Y</th><th>Z<br></th><th>Xw </th><th>Yw<br></th><th>Zw<br></th></tr></thead><tbody><tr><td>-29,2275</td><td>-41,9512</td><td>0,3958</td><td>180</td><td>-0,001</td><td>-151,348</td></tr><tr><td>-32,9853</td><td>-37,2132</td><td>-0,61192</td><td>160,638</td><td>-22,208</td><td>-147,812</td></tr><tr><td>-37,0885</td><td>-32,2901</td><td>2,3661</td><td>160,638</td><td>-22,208</td><td>-147,812</td></tr><tr><td>-28,5508</td><td>-33,7300</td><td>-0,35579</td><td>160,638</td><td>-22,208</td><td>-147,812</td></tr></tbody></table>
 
