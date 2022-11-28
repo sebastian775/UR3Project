@@ -52,6 +52,7 @@ ScriptsOnlyBuild:
     - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.LayoutElement
@@ -62,6 +63,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -87,6 +89,7 @@ ScriptsOnlyBuild:
     - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
     UnityEngine.TextCoreFontEngineModule:
     - UnityEngine.TextCore.FaceInfo
     - UnityEngine.TextCore.Glyph
@@ -400,6 +403,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3478}
     - Class: 114
+      Script: {instanceID: 3580}
+    - Class: 114
       Script: {instanceID: 3710}
     - Class: 114
       Script: {instanceID: 4200}
@@ -455,6 +460,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6898}
     - Class: 114
       Script: {instanceID: 7356}
+    - Class: 114
+      Script: {instanceID: 7382}
     - Class: 114
       Script: {instanceID: 7724}
     - Class: 114
@@ -1851,4 +1858,4 @@ ScriptsOnlyBuild:
   platform: 24
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /home/juanda/Documentos/Proyecto_UR/Ejecutable_v6/V6_2/Aplicaion.x86_64
+  playerPath: /home/ur/Documentos/UR3Project/PPMUR3.x86_64
