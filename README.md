@@ -7,7 +7,7 @@
   - Unity 2021.3.0f1
 
 ## :scroll: Contents: 
-  - **Intefaz_v5**:    Contiene el proyecto construido en Unity3d.
+  - **Intefaz_v6**:    Contiene el proyecto construido en Unity3d.
   - **Ejecutable**: Ejecutable del proyecto.
   - [URSim Manual Install ](https://github.com/sebastian775/UR3Project/releases/tag/v5)
   - [Video Soporte](https://youtu.be/1Sj_1Pt1_pQ)
@@ -86,7 +86,7 @@ En una nueva terminal ejecutar:
 ```bash
 $ roslaunch rosbridge_server rosbridge_websocket.launch
 ```
-En la carpeta ***Interfaz_v5*** que se descarga se encuentra un archivo de pythotn llamado ***ListarDatos.py***, debe abrir una teminal en esta dirección y ejecutar este script con el siguiente comando:
+En la carpeta ***Interfaz_v6*** que se descarga se encuentra un archivo de pythotn llamado ***ListarDatos.py***, debe abrir una teminal en esta dirección y ejecutar este script con el siguiente comando:
 
 **NOTA**: Se requiere contar con la versión de python3.
 
