@@ -1,4 +1,4 @@
-# UR3 Project (in construction , V5)
+# UR3 Project (in construction , V6)
 
  ## :stop_sign: Requirements: 
   - Ubuntu 18.04 +
@@ -12,16 +12,8 @@
   - [URSim Manual Install ](https://github.com/sebastian775/UR3Project/releases/tag/v5)(https://github.com/sebastian775/URSimManual/blob/sebas/README.md)
   - [Video Soporte](https://youtu.be/1Sj_1Pt1_pQ)
   
- ## :exclamation: For the next version (V6): 
-  - Se agrega el control por velocidad para la parte cartesiana.
-  - Se agrega función de copiar posición articular y cartesiana del robot.
-  - Se agrega función eliminar cordenada definida y lista de cordenadas.
-  - Se agrega función que muestra las cordenadas de orientación y posición actuales del robot en pantalla.
-  - Mejora en precisión cartesiana, articular y apariencia en este panel.
-  - Se corrige problema de interpolación en las rotaciones.
-  - Se modifica el panel cartesiano sustituyendo cuaterniones por grados (RPY°).
-  - Se modifican las unidades de las posiciones cartesianas a centímetros.
-  - Se agrega el modelo 3D de la pinza propuesta.
+ ## :exclamation: For the next version (V7): 
+  - Trayectorias Libres
   - Solución de algunos bugs visuales.
   
   
@@ -108,13 +100,3 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 
  ## Tabla de ejemplo para generar una trayectoria cuadrada.
 
-<<<<<<< HEAD
-| **x** | **y** | **z** | **xw** | **yw** | **zw** | **w** |
-=======
-| **x** | **w** | **z** | **xw** | **yw** | **zw** | **w** |
->>>>>>> 27b96f63 (se agrega carpeta v6)
-|-------|-------|-------|--------|--------|--------|-------|
-| -0,25 | -0,15 | 0,14  | 1      | 0      | 0      | 0     |
-| -0,1  | -0,25 | 0,14  | 1      | 0      | 0      | 0     |
-| -0,25 | -0,3  | 0,14  | 1      | 0      | 0      | 0     |
-| -0,25 | -0,15 | 0,14  | 1      | 0      | 0      | 0     |
