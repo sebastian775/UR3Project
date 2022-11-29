@@ -65,7 +65,7 @@ Rosbridge proporciona una API JSON para comunicar programas con ROS.
 $ sudo apt-get install ros-melodic-rosbridge-server
 ```
 
-### Download v5 executable:
+### Download v6 executable:
 El siguiente ejecutable es construido en Unity3d, se puede descargar de [ejecutable](https://github.com/sebastian775/UR3Project/releases/download/v6/executable_v6.zip)
 ###  Uso de ejecutable:
 
