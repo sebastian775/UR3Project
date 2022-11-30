@@ -1,4 +1,4 @@
-# UR3 Project (in construction , V6)
+# UR3 Project (in construction, V6)
 
  ## :stop_sign: Requirements: 
   - Ubuntu 18.04 +
@@ -7,13 +7,13 @@
   - Unity 2021.3.0f1 +
 
 ## :scroll: Contents: 
-  - **Intefaz_v6**:    Contiene el proyecto construido en Unity3d.
+  - **Intefaz_v6**:    Contiene el proyecto construido en Unity3D.
   - **Ejecutable**: Ejecutable del proyecto.
   - [URSim Manual Install ](https://github.com/sebastian775/UR3Project/releases/tag/v5)
   - [Video Soporte](https://youtu.be/1Sj_1Pt1_pQ)
   
  ## :exclamation: For the next version (V7): 
-  - Trayectorias Libres
+  - Trayectorias libres.
   - Solución de algunos bugs visuales.
   
   
@@ -66,10 +66,10 @@ $ sudo apt-get install ros-melodic-rosbridge-server
 ```
 
 ### Download v6 executable:
-El siguiente ejecutable es construido en Unity3d, se puede descargar de [ejecutable](https://github.com/sebastian775/UR3Project/releases/download/v6/executable_v6.zip)
-###  Uso de ejecutable:
+El siguiente ejecutable es construido en Unity3D, se puede descargar de [ejecutable](https://github.com/sebastian775/UR3Project/releases/download/v6/executable_v6.zip)
+###  Uso del ejecutable:
 
-**Nota**: Se debe tener inicializado el simulador con su configuración respectiva mencionada [aquí](https://github.com/sebastian775/URSimManual/blob/sebas/README.md).
+**Nota**: Se debe tener inicializado el simulador con la configuración respectiva mencionada [aquí](https://github.com/sebastian775/URSimManual/blob/sebas/README.md).
 
 Desde una teminal ejecutar lo siguiente:
 
@@ -78,7 +78,7 @@ Desde una teminal ejecutar lo siguiente:
 
 $ cd catkin_ws
 $ source devel/setup.bash
-# "Comando rápido", esto ejecuta el controlador del robot
+# "Comando rápido", esto ejecuta el controlador del robot:
 $ roslaunch ur_robot_driver ur3e_bringup.launch robot_ip:=<YOUR_IP> limited:=true
 ```
 En una nueva terminal ejecutar:
@@ -98,7 +98,7 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 **Nota**: Puede navegar por la platorma con las diferentes opciones que permite ejecutar, sin embargo para esta versión está inabilitada la opción de ejecutar trayetorias predefinidas.
 
 
- ## Tabla de ejemplo para prueba 4 puntos cartesianos 
+ ## Tabla de ejemplo para prueba con 4 puntos cartesianos 
  Configuración TCP (x:0 y:-46 z:126)
 <p align="center">
 <img src="https://github.com/sebastian775/UR3Project/blob/sebas/Resources/TCP.png" alt="Universal Robot e-Series family" style="width: 50%;"/>
