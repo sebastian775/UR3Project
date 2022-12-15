@@ -35,7 +35,7 @@ This allows you to create both the workspace and install packages, drives etc, t
 $ source /opt/ros/melodic/setup.bash
 
 # create a catkin workspace
-$ mkdir UR3e && cd sebas && mkdir -p catkin_ws/src && cd catkin_ws
+$ mkdir UR3e && cd UR3e && mkdir -p catkin_ws/src && cd catkin_ws
 
 # clone the driver
 $ git clone https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git src/Universal_Robots_ROS_Driver
