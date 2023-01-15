@@ -34,6 +34,13 @@ ExportedObj/
 *.suo
 *.tmp
 *.user
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+*.gif
+>>>>>>> d0a9e572 (v7)
+>>>>>>> e28a3335 (v7)
 *.userprefs
 *.pidb
 *.booproj
