@@ -35,12 +35,15 @@ ExportedObj/
 *.tmp
 *.user
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 *.gif
 >>>>>>> d0a9e572 (v7)
 >>>>>>> e28a3335 (v7)
+=======
+>>>>>>> f3f9b28ba (Initial commit)
 *.userprefs
 *.pidb
 *.booproj
@@ -49,7 +52,10 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+<<<<<<< HEAD
 *.vscode
+=======
+>>>>>>> f3f9b28ba (Initial commit)
 
 # Unity3D generated meta files
 *.pidb.meta
