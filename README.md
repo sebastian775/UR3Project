@@ -1,4 +1,52 @@
+# UR3 Project (in construction , V6)
 
+ ## :stop_sign: Requirements: 
+  - Ubuntu 18.04 +
+  - ROS Melodic +
+  - URSim or Real Robot.
+  - Unity 2021.3.0f1 +
+
+## :scroll: Contents: 
+  - **Intefaz_v6**:    Contiene el proyecto construido en Unity3d.
+  - **Ejecutable**: Ejecutable del proyecto.
+  - [URSim Manual Install ](https://github.com/sebastian775/UR3Project/releases/tag/v5)
+  - [Video Soporte](https://youtu.be/1Sj_1Pt1_pQ)
+  
+ ## :exclamation: For the next version (V7): 
+  - Trayectorias Libres
+  - Solución de algunos bugs visuales.
+  
+  
+--------------------
+  
+   <p align="center">
+
+ <img src="https://github.com/sebastian775/UR3Project/blob/sebas/Resources/v6img.png" alt="Universal Robot e-Series family" style="width: 70%;"/>
+
+ </p>
+
+**Note**: It is very important to have a clean workstation (catkin_ws), especially if there are Universal Robot files in it, as this may cause a conflict when compiling the catkin_ws.
+
+The following commands are executed consecutively in a single terminal:
+This allows you to create both the workspace and install packages, drives etc, that allow you to manipulate the UR robots.
+
+```bash
+# source global ros
+$ source /opt/ros/melodic/setup.bash
+
+# create a catkin workspace
+$ mkdir UR3e && cd UR3e && mkdir -p catkin_ws/src && cd catkin_ws
+
+# clone the driver
+$ git clone https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git src/Universal_Robots_ROS_Driver
+
+# clone the description. Currently, it is necessary to use the melodic-devel-staging branch.
+$ git clone -b melodic-devel-staging https://github.com/ros-industrial/universal_robot.git src/universal_robot
+
+# clone  the ur control cartesian
+$ git clone https://github.com/UniversalRobots/Universal_Robots_ROS_controllers_cartesian.git src/Universal_Robots_ROS_controllers_cartesian
+
+# install dependencies
 $ sudo apt update -qq
 $ rosdep update
 $ rosdep install --from-paths src --ignore-src -y
@@ -57,3 +105,4 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 </p>
  
 <table align="center"><thead><tr><th>X</th><th>Y</th><th>Z<br></th><th>Xw </th><th>Yw<br></th><th>Zw<br></th></tr></thead><tbody><tr><td>-29,2275</td><td>-41,9512</td><td>0,3958</td><td>180</td><td>-0,001</td><td>-151,348</td></tr><tr><td>-32,9853</td><td>-37,2132</td><td>-0,61192</td><td>160,638</td><td>-22,208</td><td>-147,812</td></tr><tr><td>-37,0885</td><td>-32,2901</td><td>2,3661</td><td>160,638</td><td>-22,208</td><td>-147,812</td></tr><tr><td>-28,5508</td><td>-33,7300</td><td>-0,35579</td><td>160,638</td><td>-22,208</td><td>-147,812</td></tr></tbody></table>
+
