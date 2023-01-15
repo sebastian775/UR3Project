@@ -18,6 +18,8 @@
   
   
 --------------------
+  ![](="https://github.com/sebastian775/UR3Project/blob/sebas/Resources/freetraj.gif) 
+  
   
    <p align="center">
 
