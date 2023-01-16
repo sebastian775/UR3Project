@@ -7,7 +7,7 @@
   - Unity 2021.3.0f1 +
 
 ## :scroll: Contents: 
-  - **Intefaz_v6**:    Contiene el proyecto construido en Unity3d.
+  - **Intefaz_v7**:    Contiene el proyecto construido en Unity3d.
   - **Ejecutable**: Ejecutable del proyecto.
   - [URSim Manual Install ](https://github.com/sebastian775/UR3Project/releases/tag/v5)
   - [Video Soporte](https://youtu.be/1Sj_1Pt1_pQ)
