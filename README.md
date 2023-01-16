@@ -16,11 +16,8 @@
   - Trayectorias Libres
   - Solución de algunos bugs visuales.
   
-  
 --------------------
-  ![](="https://github.com/sebastian775/UR3Project/blob/sebas/Resources/freetraj.gif) 
-  [image](https://https://github.com/sebastian775/UR3Project/blob/sebas/Resources/freetraj.gif)
-  
+
    <p align="center">
 
  <img src="https://github.com/sebastian775/UR3Project/blob/sebas/Resources/v6img.png" alt="Universal Robot e-Series family" style="width: 70%;"/>
