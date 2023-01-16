@@ -10,7 +10,7 @@
   - **Intefaz_v7**:    Contiene el proyecto construido en Unity3d.
   - **Ejecutable**: Ejecutable del proyecto.
   - [URSim Manual Install ](https://github.com/sebastian775/UR3Project/releases/tag/v5)
-  - [Video Soporte](https://youtu.be/s2sXCVT-Ih8)
+  - [Video de Soporte](https://youtu.be/s2sXCVT-Ih8)
   
  ## :exclamation: For the next version (V7): 
   - Trayectorias Libres
