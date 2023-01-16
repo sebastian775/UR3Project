@@ -11,7 +11,8 @@
   - **Ejecutable**: Ejecutable del proyecto.
   - [URSim Manual Install ](https://github.com/sebastian775/UR3Project/releases/tag/v5)
   - [Video de Soporte](https://youtu.be/s2sXCVT-Ih8)
-  
+  - [Freetraj](https://youtu.be/Zs1cdkPNsmA)
+   
  ## :exclamation: For the next version (V7): 
   - Trayectorias Libres
   - Solución de algunos bugs visuales.
