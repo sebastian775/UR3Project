@@ -81,7 +81,7 @@ Desde una teminal ejecutar lo siguiente:
 ```bash
 # Se inicializa el controlador del robot
 
-$ cd catkin_ws
+$ cd cd UR3e/catkin_ws
 $ source devel/setup.bash
 # "Comando rápido", esto ejecuta el controlador del robot
 $ roslaunch ur_robot_driver ur3e_bringup.launch robot_ip:=<YOUR_IP> limited:=true
