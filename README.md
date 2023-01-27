@@ -14,6 +14,8 @@
   - [Freetraj](https://youtu.be/Zs1cdkPNsmA)
    
  // ## :exclamation:
+ ## :exclamation: Importante!
+ - Establecer conexión por medio de cable Ethernet para evitar la perdida de datos.
 
   
 --------------------
