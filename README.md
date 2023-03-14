@@ -100,4 +100,7 @@ $ python3 ListarDatos.py
 ```
 Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta (dar doble click sobre el ícono).
 
+## Atajos para cambiar posición de vista
+
+
 
