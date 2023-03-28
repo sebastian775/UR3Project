@@ -102,5 +102,8 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 
 ## Atajos para cambiar posición de vista
 
+<p align="center">
 
+ <img src="https://github.com/sebastian775/UR3Project/blob/sebas/Resources/comandos.png" alt="Universal Robot e-Series family" style="width: 70%;"/>
 
+ </p>
