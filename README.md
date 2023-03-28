@@ -111,5 +111,7 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
  
 
 ## :shipit:: Autores
-- Juan David Ruz juandarf@unicauca.edu.co
-- Juan Sebastian Montenegro exlogam@unicauca.edu.co
+- Juan David Ruz            (juandarf@unicauca.edu.co)
+- Juan Sebastian Montenegro (exlogam@unicauca.edu.co)
+
+  Tutor : Andrés Vivas      (avivas@unicauca.edu.co)
