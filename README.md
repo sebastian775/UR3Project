@@ -107,3 +107,9 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
  <img src="https://github.com/sebastian775/UR3Project/blob/sebas/Resources/comandos.png" alt="Universal Robot e-Series family" style="width: 70%;"/>
 
  </p>
+ 
+ 
+
+## :shipit:: Autores
+- Juan David Ruz juandarf@unicauca.edu.co
+- Juan Sebastian Montenegro exlogam@unicauca.edu.co
