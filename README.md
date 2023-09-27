@@ -119,7 +119,7 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 -------------------------------------------------------------
 
 # UR3 Project V8
-Plataforma abordaje endonasal con robot UR3
+Plataforma abordaje endonasal con robot UR3.
 
 ## :scroll: Contents: 
   - **Intefaz_v8**:    Contiene el proyecto construido en Unity3d.
