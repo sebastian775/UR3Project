@@ -116,6 +116,16 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 - Juan David Ruz            (juandarf@unicauca.edu.co)
 - Juan Sebastian Montenegro (exlogam@unicauca.edu.co)
 
-  # UR3 Project V8
+# UR3 Project V8
+Plataforma abordaje endonasal con robot UR3
+
+## :scroll: Contents: 
+  - **Intefaz_v8**:    Contiene el proyecto construido en Unity3d.
+  - **Ejecutable**: Contiene el ejecutable del proyecto.
+  - **Resources**: Carpeta con trayectorias endonasales + 4 videos de soporte y manual de usuario
+  - [Guia de usuario:***video***](https://youtu.be/SUEaiMpRDwI).
+  - [***Abordaje endonasal***](https://youtu.be/2GFgaUTg0pg)
+
+  - 
 
   Tutor : Andrés Vivas      (avivas@unicauca.edu.co)
