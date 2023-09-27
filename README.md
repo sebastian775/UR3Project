@@ -115,6 +115,8 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 ## :shipit:: Autores
 - Juan David Ruz            (juandarf@unicauca.edu.co)
 - Juan Sebastian Montenegro (exlogam@unicauca.edu.co)
+  
+-------------------------------------------------------------
 
 # UR3 Project V8
 Plataforma abordaje endonasal con robot UR3
@@ -126,6 +128,5 @@ Plataforma abordaje endonasal con robot UR3
   - [Guia de usuario:***video***](https://youtu.be/SUEaiMpRDwI).
   - [***Abordaje endonasal***](https://youtu.be/2GFgaUTg0pg)
 
-  - 
 
   Tutor : Andrés Vivas      (avivas@unicauca.edu.co)
