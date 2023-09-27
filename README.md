@@ -108,7 +108,9 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 
  </p>
  
- 
+ J. S. Montenegro-Bravo, J. D. . Ruiz-Flórez, J. D. . Romero-Ante, J. . Manrique-Córdoba, O. A. Vivas Albán, y J. M. Sabater-Navarro, <br>
+ «Generador 3D de trayectorias libres de colisiones para un manipulador UR3e con pinza blanda», <br>
+ Rev. iberoam. autom. inform. ind., jul. 2023.
 
 ## :shipit:: Autores
 - Juan David Ruz            (juandarf@unicauca.edu.co)
