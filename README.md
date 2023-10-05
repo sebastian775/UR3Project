@@ -110,7 +110,7 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
  
  J. S. Montenegro-Bravo, J. D. . Ruiz-Flórez, J. D. . Romero-Ante, J. . Manrique-Córdoba, O. A. Vivas Albán, y J. M. Sabater-Navarro, <br>
  «Generador 3D de trayectorias libres de colisiones para un manipulador UR3e con pinza blanda», <br>
- Rev. iberoam. autom. inform. ind., jul. 2023.
+ Revista Iberoamericana de Automática e Informática Industrial, 2023.
 
 ## :shipit:: Autores
 - Juan David Ruz            (juandarf@unicauca.edu.co)
@@ -119,17 +119,17 @@ Ahora ejecutar el archivo llamado ***PPMUR3.x86_64*** contenido en esta carpeta 
 -------------------------------------------------------------
 
 # UR3 Project V8
-Plataforma abordaje endonasal con robot UR3.
+Plataforma de abordaje endonasal con robot UR3.
 
  // ## :exclamation:
  - [**Intefaz_v8**: ](https://github.com/alvira13/PlataformaUR3_V8)
 
 ## :scroll: Contents: 
-  - **Intefaz_v8**:    Contiene el proyecto construido en Unity3d.
+  - **Intefaz_v8**:    Contiene el proyecto construido en Unity3D.
   - **Ejecutable**: Contiene el ejecutable del proyecto.
-  - **Resources**: Carpeta con trayectorias endonasales + 4 videos de soporte y manual de usuario
-  - [Guia de usuario:***video***](https://youtu.be/SUEaiMpRDwI).
+  - **Resources**: Carpeta con trayectorias endonasales + 4 videos de soporte y manual de usuario.
+  - [Guía de usuario:***video***](https://youtu.be/SUEaiMpRDwI).
   - [***Abordaje endonasal***](https://youtu.be/2GFgaUTg0pg)
 
 
-  Tutor : Andrés Vivas      (avivas@unicauca.edu.co)
+  Tutor : PhD. Oscar Andrés Vivas Albán      (avivas@unicauca.edu.co)
